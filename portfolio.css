@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:white;
+  padding:5%;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.header-links{
+ 
+}
+.header-links li{
+  display:none;
+  list-style: none;
+}
+.header-links li a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.header-links li a:hover{
+  border-bottom: 2px solid black;
+ 
+}
+.Signin-btn button{
+  padding: 10px 10px;
+  border: none;
+  border-radius:10px;
+  background:black;
+  color:white;
+}
+ 
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+   
+  height: 100vh;
+}
+img{
+  width:230px;
+  border-radius:50%;
+  height:230px;
+  background-color: darkslategray;
+  margin-bottom: 40px;
+}
+.content{
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+h1{
+
+}
+.Cv-btn{
+  display:flex;
+  margin-top: 10px;
+}
+.Cv-btn p{
+  padding:12px 12px;
+  border:1.5px solid black;
+  border-radius:35px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.Cv-btn p:hover{
+  background: black;
+  color:white;
+}
+.Social-icon{
+  text-align: center;
+  
+  margin-top: 20px;
+}
+.Social-icon a{
+  color:black;
+}
+.Social-icon i{
+  font-size:35px;
+  color:black;
+  padding:7px 7px;
+  font-weight: 500;
+}
+.Social-icon i:hover{
+  background: black;
+  color: white;
+  padding:7px 7px;
+  border-radius:50%;
+}
+.About-content{
+  font-family: "Poppins", sans-serif;
+}
+
+.heading{
+text-align: center;
+}
+.Content-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+#profile-img{
+  background: darkgray;
+  border:1px solid darkgray;
+  
+}
+.Content-cards{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  gap:20px;
+}
+
+#Cards{
+  border: 2px solid darkgray;
+  border-radius: 25px;
+  text-align: center;
+  padding:20px;
+  line-height: 35px;
+}
+.card-head{
+  font-weight: 600;
+  font-size: 20px;
+}
+#icon{
+  font-weight: 600;
+  font-size: 20px;
+}
+.Content-para{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}

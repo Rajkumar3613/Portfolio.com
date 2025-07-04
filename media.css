@@ -1,0 +1,30 @@
+@media only screen and (min-width: 500px){
+  
+  .header-links li{
+    display:inline-block;
+  }
+  .profile{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    width:100%;
+    margin-top: 70px;
+  }
+  .section1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap:25px;
+  }
+  .Content-cards{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  #Cards{
+    width:280px;
+  }
+}
